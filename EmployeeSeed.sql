@@ -15,11 +15,7 @@ CREATE TABLE employee
 CREATE TABLE role
 (
     id INT REFERENCES employee,
-    
-    first-name VARCHAR
-    (30),
-    role_id INT NOT NULL,
-    manager_id INTEGER,
-    PRIMARY KEY
-    (id)
-)
+    title VARCHAR (30),
+    salary DECIMAL,
+    department INTEGER
+);
