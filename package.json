@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Magrishb/12-Employee-Tracker-MB/issues"
   },
-  "homepage": "https://github.com/Magrishb/12-Employee-Tracker-MB#readme"
+  "homepage": "https://github.com/Magrishb/12-Employee-Tracker-MB#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
