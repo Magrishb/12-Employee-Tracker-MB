@@ -19,7 +19,3 @@ class DB {
       employeeId
     );
   }
-  // Create a new employee
-  createEmployee(employee) {
-    return this.connection.query("INSERT INTO employee SET ?", employee);
-  }
