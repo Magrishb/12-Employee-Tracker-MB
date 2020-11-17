@@ -91,5 +91,4 @@ findAllEmployeesByManager(managerId) {
     managerId
   );
 }
-
 }
