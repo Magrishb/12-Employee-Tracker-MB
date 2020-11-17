@@ -30,12 +30,6 @@ class DB {
       employeeId
     );
   }
-// Update the given employee's role
-updateEmployeeRole(employeeId, roleId) {
-  return this.connection.query(
-    "UPDATE employee SET role_id = ? WHERE id = ?",
-    [roleId, employeeId]
-  );
-}
 
+  
 }
